@@ -1,0 +1,81 @@
+body{
+    background-color: #000000;
+    position: relative;
+}
+
+.name{
+    display: block;
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+    margin: 0 auto; /* Added to center the image */
+}
+
+/* styles.css */
+footer {
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    
+}
+  
+.footer-nav {
+    background-color: #000000;
+    padding: 0px;
+    display: inline-block;
+    margin-bottom: 35px; /* Add margin between the navigation and copyright box */
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.footer-nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+    padding: 10px;
+}
+  
+.footer-nav ul li:last-child {
+    margin-right: 0;
+}
+  
+.footer-nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+}
+  
+.footer-nav {
+    display: inline-block; /* Display the boxes inline */
+}
+  
+.copyright {
+    background-color: #000000;
+    padding: 0px;
+    margin-bottom: 0px;
+    bottom: 0px;
+    position: fixed;
+}
+
+.current-page {
+    color: #a71010 !important;
+}
+
+/* Styles specific to bigger devices */
+@media screen and (min-width: 800px) {
+    .footer-nav {
+      
+    }
+  
+    .copywrite {
+      
+    }
+}
